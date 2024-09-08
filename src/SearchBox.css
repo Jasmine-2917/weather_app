@@ -1,0 +1,25 @@
+.searchBox{
+text-align: center;
+margin-bottom: 2rem;
+}
+.search-bar{
+    background-color: rgba(255, 255, 255, 0.683);
+    border-radius: 5px
+}
+
+.alert {
+     animation: autoHide 0s ease-in 4s forwards;
+     width: 600px;
+     display: flex;
+     justify-content:space-around;
+     margin-left: 445px;
+     margin-top: 1rem;
+ }
+
+ @keyframes autoHide {
+     to {
+         width: 0;
+         height: 0;
+         overflow: hidden;
+     }
+    }
